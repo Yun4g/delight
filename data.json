@@ -1,0 +1,113 @@
+[
+   {
+    "id": 1,
+    "S": 1,
+    "Firstname": "Delight",
+    "lastName" : "ABERAGE",
+    "Email": "delightVincent@gmail.com",
+    "PhoneNumber":"+1 233 544 788",
+    "address" : "13556 Remington St, Pacoima",
+    "img":"image\\20241014_121901.jpg"
+    
+   },
+   {
+    "id": 2,
+    "S": 2,
+    "Firstname": "David",
+    "lastName" : "desire",
+    "Email": "desire423@gmail.com",
+    "PhoneNumber":" 08160329362",
+    "address" : "13558 Moorpark St #7, Sherman Oaks",
+    "img":"image\\man4.jpeg"
+    
+   },
+   {
+    "id": 3,
+    "S": 3,
+    "Firstname": "Tonye",
+    "lastName" : "imama",
+    "Email": "Tonye@gmail.com",
+    "PhoneNumber":" 09060329362",
+    "address":"no 20 etche borikri",
+    "img":"image\\MG.jpg"
+    
+    
+   },
+   {
+    "id": 4,
+    "S": 4,
+    "Firstname": "Golden",
+    "lastName" : "Azubeke",
+    "Email": "Golden@gmail.com",
+    "PhoneNumber":" 07060329362",
+     "address":"13565 Steiner Rd, Galt",
+    "img":"image\\man4.jpeg"
+   },
+   {
+    "id": 5,
+    "S": 5,
+    "Firstname": "Braid",
+    "lastName" : "shekina",
+    "Email": "braid@gmail.com",
+    "PhoneNumber":" 09060329362",
+    "address":" 13562 Paysen Dr, Westminster",
+    "img":"image\\man2.jpeg"
+    
+   },
+   {
+    "id": 6,
+    "S": 6,
+    "Firstname": "Dominion",
+    "lastName" : "Sunday",
+    "Email": "dominionSunday@gmail.com",
+    "PhoneNumber":" 08160369362",
+    "address":"13564 Carrera Pl, Victorville",
+    "img":"image\\cinfores.png"
+    
+   },
+   {
+    "id": 7,
+    "S": 7,
+    "Firstname": "micheal",
+    "lastName" : "james",
+    "Email": "micheal@gmail.com",
+    "PhoneNumber":" 08160329362",
+     "address":" 13562 Paysen Dr, Westminster",
+     "img":"image\\woman1.jpeg"
+    
+   },
+   {
+    "id": 8,
+    "S": 8,
+    "Firstname": "jhon",
+    "lastName" : "okafor",
+    "Email": "okafor@gmail.com",
+    "PhoneNumber":" 08140329362",
+    "address":"13564 Carrera Pl, Victorville",
+    "img":"image\\man2.jpeg"
+
+    
+   },
+   {
+    "id": 9,
+    "S": 9,
+    "Firstname": "jhonny",
+    "lastName" : "okafor",
+    "Email": "realm@gmail.com",
+    "PhoneNumber":" 08060329362",
+    "address":"13556 Remington St, Pacoima",
+  "img":"image\\delight.jpeg"
+    
+   },
+   {
+    "id": 10,
+    "S": 10,
+    "Firstname": "OKAFOR",
+    "lastName" : "dav",
+    "Email": "james@gmail.com",
+    "PhoneNumber":" 09060329362",
+    "address":"8645 West Fairground St, San Francisco",
+    "img":"image\\woman1.jpeg"
+    
+   }
+]
