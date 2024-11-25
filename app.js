@@ -71,12 +71,25 @@ document.addEventListener('DOMContentLoaded', async function () {
   toggleBtn.forEach(btn => {
     btn.addEventListener('click', () => {
       let ViewAndDelete = btn.parentElement.querySelector('.open');
+      
+      
+     toggleBtn.forEach(button =>{
+       
+              if (button !== btn) {
+                 const otherViewAndDelete = button.parentElement.querySelector('.open');
+                 otherViewAndDelete.style.width = '0px';
+              }
+    
+     })
+
 
       if (ViewAndDelete.style.width === '0px') {
         ViewAndDelete.style.width = '80%'
       } else {
         ViewAndDelete.style.width = '0px'
-      }
+      }  
+
+         
     })
   })
 
@@ -96,11 +109,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         modal.style.transform = ' translateY(200px)'
       }, 100);
 
-      // let find the row
-      //  let row = e.target.closest('tr');
-      //  if (row) {
-      //     row.remove()
-      //  }
+
     }
   })
 
