@@ -1,5 +1,4 @@
 
-
 //  fetch data
 
 const detailsData = async () => {
@@ -25,20 +24,20 @@ const detailsData = async () => {
           <tr data-id="${details.id}" class="transition-all duration-300 ">
                
 
-          <td class="border-2 px-4 md:px-6 hidden md:table-cell">
+          <td class=" text-center px-4 md:px-6 hidden md:table-cell">
                ${details.Firstname}
            </td>
 
-           <td class="border-2 px-4 md:px-6 hidden md:table-cell">
+           <td class=" text-center px-4 md:px-6 hidden md:table-cell">
              ${details.lastName}
          </td>
-         <td class="border-2 px-4 md:px-6 hidden md:table-cell">
+         <td class=" text-center px-4 md:px-6 hidden md:table-cell">
              ${details.Email}
          </td>
-         <td class="border-2 px-4 md:px-6 hidden md:table-cell">
+         <td class=" text-center px-4 md:px-6 hidden md:table-cell">
          ${details.PhoneNumber}
          </td>
-         <td class="border border-gray-300 px-4  md:px-6 flex  items-center justify-evenly">
+         <td class="px-4 text-center  md:px-6 flex  items-center justify-evenly">
          <div class="p-2 bg-gray-300 rounded-full h-10 text-center w-10 cursor-pointer kabab">
             <i class="fa-solid fa-ellipsis"></i>
          </div>

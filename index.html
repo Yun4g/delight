@@ -30,6 +30,11 @@
           transition: all 1s ease-in-out;
           margin-left: 500px;
         }
+
+        tr:nth-child(even){
+            background-color: gray;
+            color: white;
+        }
     </style>
 </head>
 <body class="bg-gray-700 flex flex-col justify-center align-center h-screen pl-6 pr-6 pt-8">
@@ -39,19 +44,19 @@
         </h1>
      </header>
     <section class="lg:w-full bg-white h-full">
-       <table class="table-auto border-2 border-gray-900  md:w-1/2 lg:w-full">
+       <table class="table-auto  md:w-1/2 lg:w-full">
         <thead >
-            <tr class="h-16 ">
+            <tr class="h-16 bg-gray-600 text-white">
         
-                <th class="border-2 border-gray-900 text-sm md:text-xl px-2 md:px-6 md:table-cell">
+                <th class=" text-sm md:text-xl  flex justify-start md:table-cell">
                     FirstName
                 </th>
-                <th class="border-2 border-gray-900 text-sm md:text-xl md:px-6 md:table-cell">
+                <th class="text-sm md:text-xl md:px-6 md:table-cell">
                     LastName
                 </th>
-                <th class="border-2 border-gray-900 text-sm md:text-xl md:px-6 md:table-cell">Email</th>
-                <th class="border-2 border-gray-900 text-sm md:text-xl md:px-6 md:table-cell">PhoneNumber</th>
-                <th class="border-2 border-gray-900 text-sm md:text-xl md:px-6 md:table-cell">
+                <th class=" text-sm md:text-xl md:px-6 md:table-cell">Email</th>
+                <th class=" text-sm md:text-xl md:px-6 md:table-cell">PhoneNumber</th>
+                <th class=" text-sm md:text-xl md:px-6 md:table-cell">
                      action
                 </th>
             </tr>
